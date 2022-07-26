@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mysmpage</title>
+    <style>
+        marquee {
+            color: midnightblue;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+        }
+
+        label {
+            color: cornflowerblue;
+        }
+
+        input {
+            color: darkslategray;
+            font-style: oblique;
+            font-size: 40px;
+        }
+
+        img {
+            width: 500px;
+            /* margin: 100px; */
+            /* for only get a margin in a particular side we use margin-dir */
+            margin-left: 250px ;
+            margin-bottom: -40px;
+            padding:10%;
+
+            border: seashell;
+            border-style: groove;
+            border-width: 50px;
+            border-radius: 50%;
+        }
+
+        body {
+            /* background-color: cadetblue; */
+            /* background-blend-mode: color-dodge; */
+            background-image: linear-gradient(yellow, red, pink, blue);
+        }
+
+        .crush {
+            width: 500px;
+            margin: 20px;
+            border: darkslategrey;
+            border-width: 50px;
+            border-style: double;
+            border-radius: 0px;
+        }
+
+        .gen {
+            color:lightpink !important; 
+            /* if you want something to be done irrespective of the code prefrences we use !important */
+            font-size: 40px;
+        }
+/* id has more preference than class */
+        #gender-m {
+            color:cyan ;
+            font-size: 40px;
+        }
+        #pad{
+            background-color: burlywood;
+            padding:100px;
+            width:40%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="mailto:joycemichael0207@gmail.com" method="post">
+        <marquee behavior="alternate" direction="right">lalalalaallalala</marquee>
+        <hr>
+        <img
+            src="https://cdn.searchenginejournal.com/wp-content/uploads/2021/08/top-5-reasons-why-you-need-a-social-media-manager-616015983b3ba-sej-1520x800.png">
+        <br>
+        <hr>
+        Name:
+        <input type="text" name="name" placeholder="please enter your name"><br>
+        SKILLS:<br>
+        HTML:
+        <input type="checkbox" name="skill" value="HTML" id="skl_htm">
+        CSS:
+        <input type="checkbox" name="skill" value="css" id="skl_css">
+        <br>
+        <hr>
+        <hr>
+        Gender:<br>
+        male:<br>
+        <input type="radio" name="gender" value="male" id="gender-m">
+        <label for="gender-m" class="gen" id="gender-m">male</label>
+        <br>
+        female:<br>
+        <input type="radio" name="gender" value="female" id="gender-f">
+        <label for="gender-f" class="gen">female</label>
+        <br>
+        others:<br>
+        <input type="radio" name="gender" value="others" id="gender-o">
+        <label for="gender-o" class="gen" id="newgen">others</label>
+        <hr>
+        <hr>
+        DOB:
+        <select name="date">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+
+        </select>
+
+        <select name="month">
+            <option>jan</option>
+            <option>feb</option>
+            <option>march</option>
+            <option>april</option>
+            <option>may</option>
+            <option>june</option>
+            <option>july</option>
+            <option>aug</option>
+            <option>sep</option>
+            <option>oct</option>
+            <option>nov</option>
+            <option>dec</option>
+        </select>
+        <input type="number" name="year" value="year">
+        <br>
+        Mobile number:
+        <input type="number" name="mobile number" value="mobile number">
+        <br>
+        e-mail address:
+        <input type="email" name="email" placeholder="someone@something.com">
+        <br>
+        password:<input type="password" name="password" placeholder="please enter your password"><BR>
+        <hr>
+        <!-- <section>
+                <a href="https://codewithharry.com" target="_main">harry's website
+                    <img src="memask.jpg" target="_main" width="123">
+                </a>
+            </section> -->
+        <!-- 
+            <a href="https://www.instagram.com/joy_ce_2/" target="_main" class="crush">
+                <img scr="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-jennifer-lawrence-hair-index-1557773479.jpg?crop=0.501xw:1.00xh;0.500xw,0&resize=640:*" target="_main" widht="123"> 
+            </a>
+  -->
+
+        <!-- <div> -->
+        <a href="https://www.instagram.com/joy_ce_2/" target="_blank">clickclick
+            <img src="https://media.glamour.com/photos/5ccc30f8d42e620623c48528/master/pass/3e2c0218ae450c9f6fdf2003a9bb162cae47debcab3386c3c8bc3a19683425b7425554ec5514d1df5682bbe88725f598.jpg"
+                alt="tyrion lannistor is my lobbbb" width="150px">
+        </a>
+        <br><hr>
+        <div id="pad">
+            <p style="background-color:blue;">APPLE</p>
+        </div>
+        <!-- </div> -->
+        <hr>
+        <hr>
+        <br><br><br>
+        <h1>
+            <!-- <section>this is written under section</section> -->
+        </h1>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </form>
+</body>
+
+</html>
